@@ -1,0 +1,307 @@
+{
+	"id": "4a391491-69d1-493e-b673-e29465780416",
+	"name": "AutoTest exercise",
+	"timestamp": "2022-05-31T13:27:44.001Z",
+	"collection_id": "9791292-9ee0d154-de13-47dd-9677-e33ff19ff095",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 19,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "61017bd5-6517-4b87-be5f-2096e9e70dc4",
+			"name": "Create Data",
+			"url": "https://l761dniu80.execute-api.us-east-2.amazonaws.com/default/exercise_api",
+			"time": 299,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response time is less than 400ms": true,
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Response time is less than 400ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				299
+			],
+			"allTests": [
+				{
+					"Response time is less than 400ms": true,
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "5a842ef1-2b24-4307-bd5e-726c8785152d",
+			"name": "Initial Data Review",
+			"url": "https://l761dniu80.execute-api.us-east-2.amazonaws.com/default/exercise_api",
+			"time": 291,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Schema is valid": true,
+				"Response time is less than 400ms": true,
+				"Status code is 200": true,
+				"Content-Type is present": true
+			},
+			"testPassFailCounts": {
+				"Schema is valid": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 400ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				291
+			],
+			"allTests": [
+				{
+					"Schema is valid": true,
+					"Response time is less than 400ms": true,
+					"Status code is 200": true,
+					"Content-Type is present": true
+				}
+			]
+		},
+		{
+			"id": "cfd07e7d-551e-46a2-8653-1e68bf3788f3",
+			"name": "Update  the Data",
+			"url": "https://l761dniu80.execute-api.us-east-2.amazonaws.com/default/exercise_api",
+			"time": 339,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response time is less than 400ms": true,
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Response time is less than 400ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				339
+			],
+			"allTests": [
+				{
+					"Response time is less than 400ms": true,
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "3ac62c7b-922a-42b1-b74b-84c17c8306ba",
+			"name": "Create Another Data Point",
+			"url": "https://l761dniu80.execute-api.us-east-2.amazonaws.com/default/exercise_api",
+			"time": 303,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response time is less than 400ms": true,
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Response time is less than 400ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				303
+			],
+			"allTests": [
+				{
+					"Response time is less than 400ms": true,
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "6beedfe6-a4aa-41a1-994f-ab5732afb08a",
+			"name": "Data Review",
+			"url": "https://l761dniu80.execute-api.us-east-2.amazonaws.com/default/exercise_api",
+			"time": 284,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Schema is valid": true,
+				"Response time is less than 400ms": true,
+				"Status code is 200": true,
+				"Content-Type is present": true
+			},
+			"testPassFailCounts": {
+				"Schema is valid": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 400ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				284
+			],
+			"allTests": [
+				{
+					"Schema is valid": true,
+					"Response time is less than 400ms": true,
+					"Status code is 200": true,
+					"Content-Type is present": true
+				}
+			]
+		},
+		{
+			"id": "8e528724-8bc1-4b92-9549-fee609802e48",
+			"name": "Delete Data",
+			"url": "https://l761dniu80.execute-api.us-east-2.amazonaws.com/default/exercise_api?main_key=Ali",
+			"time": 280,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Your test name": true,
+				"Response time is less than 400ms": true,
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Your test name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 400ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				280
+			],
+			"allTests": [
+				{
+					"Your test name": true,
+					"Response time is less than 400ms": true,
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "5cb9b6a7-d7fc-4aba-82ce-2583e05850ef",
+			"name": "Delete Data 2",
+			"url": "https://l761dniu80.execute-api.us-east-2.amazonaws.com/default/exercise_api",
+			"time": 289,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response time is less than 400ms": true,
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Response time is less than 400ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				289
+			],
+			"allTests": [
+				{
+					"Response time is less than 400ms": true,
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 2085,
+	"collection": {
+		"requests": [
+			{
+				"id": "61017bd5-6517-4b87-be5f-2096e9e70dc4",
+				"method": "PUT"
+			},
+			{
+				"id": "5a842ef1-2b24-4307-bd5e-726c8785152d",
+				"method": "GET"
+			},
+			{
+				"id": "cfd07e7d-551e-46a2-8653-1e68bf3788f3",
+				"method": "POST"
+			},
+			{
+				"id": "3ac62c7b-922a-42b1-b74b-84c17c8306ba",
+				"method": "PUT"
+			},
+			{
+				"id": "6beedfe6-a4aa-41a1-994f-ab5732afb08a",
+				"method": "GET"
+			},
+			{
+				"id": "8e528724-8bc1-4b92-9549-fee609802e48",
+				"method": "DELETE"
+			},
+			{
+				"id": "5cb9b6a7-d7fc-4aba-82ce-2583e05850ef",
+				"method": "DELETE"
+			}
+		]
+	}
+}
